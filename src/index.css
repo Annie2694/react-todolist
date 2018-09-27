@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-size:13px;
+}
+.banner{
+  text-align:left;
+  width: 100%;
+  height:50px;
+  background-color: peachpuff;
+  font-size:40px;
+
+}
+.list{
+  display:flex;
+}
+.content{
+  margin-top: 100px;
+}
+.list1{
+  flex:1;
+}
+.list2 {
+  font-size:12px;
+  width:60px;
+  height:25px;
+  background-color: peachpuff;
+  text-decoration: none;
+  border:none;
+  border-radius: 10px;
+}
+.list2:hover {
+  text-decoration: underline;
+  color:red;
+}
+.add{
+  background-color: peachpuff;
+  border:none;
+  height:21px;
+  cursor: pointer;
+}
+.text-input{
+  width:350px;
+}
+.todoListMain{
+  top:0;
+  position:fixed;
+  width:100%;
+}
+.header{
+  line-height:50px;
+  background-color: white;
+}
+.title{
+  text-align:left;
+}
+.theList{
+  text-align:left;
+}
